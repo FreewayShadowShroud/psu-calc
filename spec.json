@@ -1,0 +1,50 @@
+{
+    "name":  "psu-calc",
+    "logo":  "🔋",
+    "exe":  "PsuCalc.exe",
+    "desc":  "Free, open-source PSU wattage calculator for Windows — size a power supply from real component presets offline. 100 MB portable, MIT.",
+    "topics":  [
+                   "psu-calculator",
+                   "power-supply",
+                   "wattage-calculator",
+                   "pc-building",
+                   "hardware",
+                   "outervision-alternative",
+                   "pcpartpicker-alternative",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "tdp",
+                   "overclocking",
+                   "build-planning",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Component preset database** — CPUs and GPUs with stock and overclocked draw values, updated with new launches",
+                     "✅ **Custom TDP entry** — add unlisted parts by wattage so exotic builds still get an answer",
+                     "✅ **Transient headroom math** — models GPU power spikes, not just average TDP, and recommends a safe ceiling",
+                     "✅ **Connector checklist** — counts required PCIe 8-pin and 12VHPWR plugs against typical PSU configs",
+                     "✅ **Duty-cycle sweet spot** — shows the 40 to 60 percent load band where efficiency and fan noise peak",
+                     "✅ **Build save and compare** — store several configurations and diff their estimated draw side by side",
+                     "✅ **100 MB self-contained exe** — database bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **psu-calc** | OuterVision | PCPartPicker | CM Calculator |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Freemium | Free web | Free web |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Transient spike modeling | **Yes** | Paid tier | No | No |",
+                    "| Offline, no account | **Yes** | No | No | No |",
+                    "| Connector count checklist | **Yes** | No | Partial | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Web | Web | Web |"
+                ],
+    "faqQ":  "how many watts do I need for my PC build?",
+    "faqA":  "Average-TDP math undersizes modern GPUs because real boards spike far above their rating for microseconds, which is where instability stories start. psu-calc models those transients, adds the 40 to 60 percent efficiency band, and counts the PCIe connectors the wattage implies. It is a 100 MB portable exe, MIT, fully offline with a bundled preset database.",
+    "s1":  "Dark builder (#121417, orange #FB923C): CPU and GPU pickers, RAM and drive steppers, live wattage gauge needle resting at 642 W.",
+    "s2":  "Transient panel: spike graph peaking 1.8x TDP, recommended PSU range chip 750 to 850 W, efficiency band slider green.",
+    "s3":  "Connector checklist: PCIe 8-pin count 3 of 4 satisfied, 12VHPWR row, saved builds list below with compare checkboxes."
+}
